@@ -51,4 +51,13 @@ const wardrobe = {
     width: 50
 }
 
-console.log(wardrobe.height, wardrobe.manufacturer, wardrobe.contents, wardrobe.depth, wardrobe.width)
+console.log("The Wardrobe")
+console.log("Wardrobe height", wardrobe.height)
+console.log("Wardrobe manufacturer", wardrobe.manufacturer)
+
+for (let i = 0; i < wardrobe.contents.length; i++) {
+    console.log(`Wardrobe contents item ${i +1}`, wardrobe.contents[i])
+}
+
+console.log("Wardrobe depth", wardrobe.depth)
+console.log("Wardrobe width", wardrobe.width)
