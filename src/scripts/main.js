@@ -39,3 +39,16 @@ const baby2 = {
 }
 
 const familyMembers = [ryan, erica, peter, baby2]
+
+// START OF BRANCH lightning-exercise-two
+// Lightning Exercise: Given the object below, output each of the values to the console using dot notation.
+
+const wardrobe = {
+    height: 80,
+    manufacturer: "Killibrew & Sons",
+    contents: ["Dress shirt", "Jeans", "Suit", "Skirt", "Tennis shoes"],
+    depth: 38,
+    width: 50
+}
+
+console.log(wardrobe.height, wardrobe.manufacturer, wardrobe.contents, wardrobe.depth, wardrobe.width)
