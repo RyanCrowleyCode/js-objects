@@ -61,3 +61,39 @@ for (let i = 0; i < wardrobe.contents.length; i++) {
 
 console.log("Wardrobe depth", wardrobe.depth)
 console.log("Wardrobe width", wardrobe.width)
+
+// LIGHTNING 3!!!!
+const empireStateBuilding = {
+    stories: 103,
+    height: 1453,
+    address: "350 Fifth Avenue, Manhattan, New York 10118",
+    squareFeet: 2768591,
+    constructionDate: 1931,
+    cost: 40948900,
+    owner: "Empire State Realty Trust",
+    eastWestLength: 424,
+    northSouthLength: 187,
+    architect: "Shreve, Lamb & Harmon"
+}
+// Lightning Exercises 1: Use dot notation to output all of the dimensions of the Empire State Building to the console.
+
+console.log(`Empire State Building stories: ${empireStateBuilding.stories}`)
+console.log(`Empire State Building height: ${empireStateBuilding.height}`)
+console.log(`Empire State Building square feet: ${empireStateBuilding.squareFeet}`)
+console.log(`Empire State Building east to west length: ${empireStateBuilding.eastWestLength}`)
+console.log(`Empire State Building north to south length: ${empireStateBuilding.northSouthLength}`)
+
+
+// Lightning Exercises 2: Use square bracket notation to output the remaining 5 properties to the console. Create 5 variables first with the keys as their values. Use those variables to look up the values.
+
+const empireAddress = "address"
+const empireConstructionDate = "constructionDate"
+const empireCost = "cost"
+const empireOwner = "owner"
+const empireArchitect = "architect"
+
+console.log(`Empire State Building address: ${empireStateBuilding[empireAddress]}`)
+console.log(`Empire State Building construction date: ${empireStateBuilding[empireConstructionDate]}`)
+console.log(`Empire State Building cost: ${empireStateBuilding[empireCost]}`)
+console.log(`Empire State Building owner: ${empireStateBuilding[empireAddress]}`)
+console.log(`Empire State Building architect: ${empireStateBuilding[empireArchitect]}`)
