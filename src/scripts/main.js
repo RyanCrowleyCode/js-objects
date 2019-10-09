@@ -32,4 +32,10 @@ const peter = {
     favoriteDrink: "water",
 }
 
-const familyMembers = [ryan, erica, peter]
+const baby2 = {
+    name: "unkown",
+    age: 0,
+    favoriteDrink: "milk",
+}
+
+const familyMembers = [ryan, erica, peter, baby2]
