@@ -97,3 +97,23 @@ console.log(`Empire State Building construction date: ${empireStateBuilding[empi
 console.log(`Empire State Building cost: ${empireStateBuilding[empireCost]}`)
 console.log(`Empire State Building owner: ${empireStateBuilding[empireAddress]}`)
 console.log(`Empire State Building architect: ${empireStateBuilding[empireArchitect]}`)
+
+// START of LIGHNTING 4!!
+const nashvilleSoftwareSchool = {
+    founded: 2012,
+    director: "John Wark",
+    instructors: {
+        fullTime: ["Jisie", "Brenda", "Steve", "Joe", "Andy"],
+        partTime: ["Zoe", "Nathan"]
+    },
+    address: "500 Interstate Blvd. S"
+}
+// Lightning Exercise 1: Output the names of the part-time instructors followed by the names of the full-time instructors in the console.
+
+const partTimeTeachers = nashvilleSoftwareSchool.instructors.partTime
+const fullTimeTeachers = nashvilleSoftwareSchool.instructors.fullTime
+
+console.log(`The part time teachers at Nashville Software School are ${partTimeTeachers[0]} and ${partTimeTeachers[1]}. The full time teachers at NSS are ${fullTimeTeachers[0]}, ${fullTimeTeachers[1]}, ${fullTimeTeachers[2]}, ${fullTimeTeachers[3]}, and ${fullTimeTeachers[4]}.`)
+
+// Lightning Exercise 2: Output only Andy and Zoe in the console.
+console.log("Only Andy and Zoe", fullTimeTeachers[4], partTimeTeachers[0])
