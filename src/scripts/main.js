@@ -113,7 +113,18 @@ const nashvilleSoftwareSchool = {
 const partTimeTeachers = nashvilleSoftwareSchool.instructors.partTime
 const fullTimeTeachers = nashvilleSoftwareSchool.instructors.fullTime
 
-console.log(`The part time teachers at Nashville Software School are ${partTimeTeachers[0]} and ${partTimeTeachers[1]}. The full time teachers at NSS are ${fullTimeTeachers[0]}, ${fullTimeTeachers[1]}, ${fullTimeTeachers[2]}, ${fullTimeTeachers[3]}, and ${fullTimeTeachers[4]}.`)
+// console.log(`The part time teachers at Nashville Software School are ${partTimeTeachers[0]} and ${partTimeTeachers[1]}. The full time teachers at NSS are ${fullTimeTeachers[0]}, ${fullTimeTeachers[1]}, ${fullTimeTeachers[2]}, ${fullTimeTeachers[3]}, and ${fullTimeTeachers[4]}.`)
+
+console.log("Part Time Teachers:")
+for (i = 0; i < partTimeTeachers.length; i++) {
+    console.log(partTimeTeachers[i])
+}
+
+console.log("Full Time Teachers:")
+for (i = 0; i < fullTimeTeachers.length; i++) {
+    console.log(fullTimeTeachers[i])
+}
 
 // Lightning Exercise 2: Output only Andy and Zoe in the console.
 console.log("Only Andy and Zoe", fullTimeTeachers[4], partTimeTeachers[0])
+
